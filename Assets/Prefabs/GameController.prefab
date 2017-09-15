@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1618339807226102}
+  m_IsPrefabParent: 1
+--- !u!1 &1618339807226102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4834263244092856}
+  - component: {fileID: 114624996275795634}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4834263244092856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618339807226102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114624996275795634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618339807226102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec1821daa20fd34cae35f5379fbe850, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteorPrefab:
+  - {fileID: 1545899533911538, guid: 3dd0e94995e49104d8acc767776bf8c1, type: 2}
+  - {fileID: 1639194622346862, guid: a356035912b689c4da4dbc4211c1897e, type: 2}
+  - {fileID: 1507471980919034, guid: 97f58c97540f705418c0dbd25387169c, type: 2}
+  - {fileID: 1214157634148230, guid: 5cb3a71592922f94c999c00ea0f457e5, type: 2}
+  enemyFormation: {fileID: 0}
+  powerUps:
+  - {fileID: 1705719704478958, guid: 83e4ce9524874d84dba3ebe6ad46a9b0, type: 2}
+  - {fileID: 1348447555478650, guid: 75cc4b6700327424db9b3909acd956a6, type: 2}
+  scoreText: {fileID: 0}
+  meteorsCount: 10
+  spawnWait: 2.5
+  startWait: 2
+  spawnPosition: {x: 9.5, y: 9, z: 0}
+  countForNextChalange: 100
